@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <title>Vieta Destroyer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2>YOUR EQUATION</h2>
+        <span class="equation" id="equation">x<sup>2</sup> &plus; x &minus; 2 &equals; 0</span>
+        <div class="members">
+            <input type="number" placeholder="a" id="member_a" value=1>
+            <input type="number" placeholder="b" id="member_b" value=1>
+            <input type="number" placeholder="c" id="member_c" value=-2>
+        </div>
+        <div class="calcbutton" id="solve">SOLVE</div>
+        <div class="calculated">
+            <span class="equation" id="vieta_sum"></span>
+            <span class="equation" id="vieta_product"></span>
+            <span class="equation" id="roots" style="color: crimson;"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
