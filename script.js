@@ -31,8 +31,8 @@ const solve = () => {
     }
     const x1 = ( -b - Math.sqrt(D) ) / (2 * a);
     const x2 = ( -b + Math.sqrt(D) ) / (2 * a);
-    vietaSumSpan.innerHTML = `x${'1'.sub()} + x${'2'.sub()} = ${x1 + x2};`;
-    vietaProductSpan.innerHTML = `x${'1'.sub()} \u00D7 x${'2'.sub()} = ${x1 * x2};`;
+    vietaSumSpan.innerHTML = `x${'1'.sub()} + x${'2'.sub()} = ${- b / a};`;
+    vietaProductSpan.innerHTML = `x${'1'.sub()} \u00D7 x${'2'.sub()} = ${c / a};`;
     rootsSpan.innerHTML = `x${'1'.sub()} = ${x1}; x${'2'.sub()} = ${x2}.`;
 }
 
