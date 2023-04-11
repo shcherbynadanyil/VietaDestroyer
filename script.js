@@ -62,7 +62,7 @@ const update = () => {
     if(c !== 0) {
         if(c < 0) equationString += "- ";
         else if(a !== 0 || b !== 0) equationString += "+ ";
-        if(Math.abs(c) !== 1) equationString += Math.abs(c);
+        equationString += Math.abs(c);
     }
     if(a !== 0 || b !== 0 || c !== 0) equationString += " = 0";
     document.getElementById("equation").innerHTML = equationString;
